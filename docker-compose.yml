@@ -1,0 +1,5 @@
+version: "2"
+services:
+  rethinkdb-cluster:
+    build: .
+    image: feeder/rethinkdb-cluster
